@@ -9,6 +9,14 @@ export default {
   ],
   theme: {
   	extend: {
+		backgroundImage: {
+			'hero-image': "url('/images/hero.png')", 
+		},
+		fontFamily: {
+			dmsans: ['"DM Sans"', 'sans-serif'],
+			moondance: ['"Moon Dance"', 'cursive'],
+			sarabun:['"Sarabun"', 'semi-bold'],
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
